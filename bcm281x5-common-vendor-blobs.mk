@@ -16,16 +16,17 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/bcm281x5-common/proprietary/bin/at_distributor:system/bin/at_distributor \
+    vendor/samsung/bcm281x5-common/proprietary/bin/atrace:system/bin/atrace \
     vendor/samsung/bcm281x5-common/proprietary/bin/atx:system/bin/atx \
     vendor/samsung/bcm281x5-common/proprietary/bin/atxd:system/bin/atxd \
     vendor/samsung/bcm281x5-common/proprietary/bin/BCM4330B1_002.001.003.0876.0996.hcd:system/bin/BCM4330B1_002.001.003.0876.0996.hcd \
     vendor/samsung/bcm281x5-common/proprietary/bin/bkmgrd:system/bin/bkmgrd \
     vendor/samsung/bcm281x5-common/proprietary/bin/cate_rpc_util:system/bin/cate_rpc_util \
+    vendor/samsung/bcm281x5-common/proprietary/bin/emma:system/bin/emma \
     vendor/samsung/bcm281x5-common/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/bcm281x5-common/proprietary/bin/glgps:system/bin/glgps \
     vendor/samsung/bcm281x5-common/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/bcm281x5-common/proprietary/bin/gpslogd:system/bin/gpslogd \
-    vendor/samsung/bcm281x5-common/proprietary/bin/immvibed:system/bin/immvibed \
     vendor/samsung/bcm281x5-common/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/bcm281x5-common/proprietary/bin/mttlogger:system/bin/mttlogger \
     vendor/samsung/bcm281x5-common/proprietary/bin/npsmobex:system/bin/npsmobex \
@@ -61,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm281x5-common/proprietary/lib/lib_Samsung_Resampler.so:system/lib/lib_Samsung_Resampler.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/lib_Samsung_SB_AM_for_ICS_v03008.so:system/lib/lib_Samsung_SB_AM_for_ICS_v03008.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/lib_SamsungRec_V01006.so:system/lib/lib_SamsungRec_V01006.so \
+    vendor/samsung/bcm281x5-common/proprietary/lib/lib_SoundAlive_V01013n.so:system/lib/lib_SoundAlive_V01013n.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libat.so:system/lib/libat.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libat_stubs.so:system/lib/libat_stubs.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libatlog.so:system/lib/libatlog.so \
@@ -72,12 +74,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm281x5-common/proprietary/lib/libcapi2.so:system/lib/libcapi2.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libcate_rpc.so:system/lib/libcate_rpc.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
+    vendor/samsung/bcm281x5-common/proprietary/lib/libdebug_sym.so:system/lib/libdebug_sym.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libdispmanx.so:system/lib/libdispmanx.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libhdcp.so:system/lib/libhdcp.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libHDCPKeyManager.so:system/lib/libHDCPKeyManager.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libhdmiaudio.so:system/lib/libhdmiaudio.so \
-    vendor/samsung/bcm281x5-common/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libmmal.so:system/lib/libmmal.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libmmal_components.so:system/lib/libmmal_components.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libmmal_util.so:system/lib/libmmal_util.so \
@@ -95,6 +97,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm281x5-common/proprietary/lib/libsoundalive.so:system/lib/libsoundalive.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libSoundAlive_VSP_ver312a.so:system/lib/libSoundAlive_VSP_ver312a.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libsoundspeed.so:system/lib/libsoundspeed.so \
+    vendor/samsung/bcm281x5-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libsthmb.so:system/lib/libsthmb.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libtvservice.so:system/lib/libtvservice.so \
     vendor/samsung/bcm281x5-common/proprietary/lib/libtvservice_binder.so:system/lib/libtvservice_binder.so \
@@ -120,5 +123,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/bcm281x5-common/proprietary/vendor/lib/hw/gralloc.capri.so:system/vendor/lib/hw/gralloc.capri.so \
     vendor/samsung/bcm281x5-common/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so \
     vendor/samsung/bcm281x5-common/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so \
-    vendor/samsung/bcm281x5-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/samsung/bcm281x5-common/proprietary/vendor/lib/hw/power.capri.so:system/vendor/lib/hw/power.capri.so
