@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/bin/emma:system/bin/emma \
     vendor/samsung/galaxys2plus-common/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/galaxys2plus-common/proprietary/bin/glgps:system/bin/glgps \
-    vendor/samsung/galaxys2plus-common/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/galaxys2plus-common/proprietary/bin/gpslogd:system/bin/gpslogd \
     vendor/samsung/galaxys2plus-common/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/galaxys2plus-common/proprietary/bin/mttlogger:system/bin/mttlogger \
@@ -36,22 +35,19 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/bin/vclmk:system/bin/vclmk \
     vendor/samsung/galaxys2plus-common/proprietary/bin/vcos-version:system/bin/vcos-version \
     vendor/samsung/galaxys2plus-common/proprietary/etc/asound.conf:system/etc/asound.conf \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/camera_info.ini:system/etc/camera_info.ini \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/default_gain.conf:system/etc/default_gain.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_WB.txt:system/etc/DiamondVoice_WB.txt \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/samsung/galaxys2plus-common/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/tinyucm.conf:system/etc/tinyucm.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/audio.hdmi.capri.so:system/lib/hw/audio.hdmi.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/audio.primary.capri.so:system/lib/hw/audio.primary.capri.so \
