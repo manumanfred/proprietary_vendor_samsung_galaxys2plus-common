@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/etc/tinyucm.conf:system/etc/tinyucm.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
