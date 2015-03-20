@@ -103,7 +103,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libVCOS.so:system/lib/libVCOS.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libvcsm.so:system/lib/libvcsm.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
-    vendor/samsung/galaxys2plus-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libWFC.so:system/lib/libWFC.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/modules/VoiceSolution.ko:system/lib/modules/VoiceSolution.ko \
