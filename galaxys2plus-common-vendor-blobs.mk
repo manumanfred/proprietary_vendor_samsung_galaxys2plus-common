@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/bin/emma:system/bin/emma \
     vendor/samsung/galaxys2plus-common/proprietary/bin/geomagneticd:system/bin/geomagneticd \
     vendor/samsung/galaxys2plus-common/proprietary/bin/glgps:system/bin/glgps \
+    vendor/samsung/galaxys2plus-common/proprietary/bin/gps.cer:system/bin/gps.cer \
     vendor/samsung/galaxys2plus-common/proprietary/bin/gpslogd:system/bin/gpslogd \
     vendor/samsung/galaxys2plus-common/proprietary/bin/macloader:system/bin/macloader \
     vendor/samsung/galaxys2plus-common/proprietary/bin/mttlogger:system/bin/mttlogger \
@@ -38,6 +39,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_WB.txt:system/etc/DiamondVoice_WB.txt \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/samsung/galaxys2plus-common/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/tinyucm.conf:system/etc/tinyucm.conf \
