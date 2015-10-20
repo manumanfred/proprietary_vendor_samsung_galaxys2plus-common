@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_WB.txt:system/etc/DiamondVoice_WB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/gps/glconfig.xml:system/etc/gps/glconfig.xml \
     vendor/samsung/galaxys2plus-common/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/media_profiles.xml:system/etc/media_profiles.xml \
     vendor/samsung/galaxys2plus-common/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/tinyucm.conf:system/etc/tinyucm.conf \
