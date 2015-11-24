@@ -119,5 +119,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/egl/libGLES_vc4.so:system/vendor/lib/egl/libGLES_vc4.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/camera.capri.so:system/vendor/lib/hw/camera.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/gralloc.capri.so:system/vendor/lib/hw/gralloc.capri.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/power.capri.so:system/vendor/lib/hw/power.capri.so
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so
