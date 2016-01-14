@@ -125,4 +125,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/camera.capri.so:system/vendor/lib/hw/camera.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/gralloc.capri.so:system/vendor/lib/hw/gralloc.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
