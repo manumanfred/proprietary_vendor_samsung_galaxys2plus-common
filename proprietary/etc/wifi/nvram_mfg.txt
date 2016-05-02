@@ -1,6 +1,4 @@
-##120926_VN_nvram_RC120_XTAL_26MHz.txt
-## This should be used only for Samsung program using Capri
-##
+#130315_VN_nvram_XTAL_26MHz_for_Samsung_only.txt
 manfid=0x2d0
 prodid=0x0532
 vendid=0x14e4
@@ -8,7 +6,7 @@ devid=0x4360
 boardtype=0x0532
 boardrev=0x40
 
-#changed LSB to 1
+#changed LSB to 1 9/24 Green
 boardflags=0x10080a01
 
 nocrc=1
@@ -16,7 +14,7 @@ xtalfreq=26000
 boardnum=22
 macaddr=00:90:4c:c5:12:38
 
-#changed from 2 to 253
+#changed from 2 to 253 9/24 Green
 ag0=253
 
 aa2g=1
@@ -64,10 +62,10 @@ mcs5ghpo0=0x7777
 mcs5ghpo1=0x7777
 extpagain5g=2
 triso2g=4
-
 triso5g=9
+#tridx2g=0
 
-#changed form 4 to 9 for 5G Rx hump
+#changed form 4 to 9 for 5G Rx hump 9/24 Green
 triso5g.fab.2=9
 
 #pacalidx2g
@@ -96,21 +94,33 @@ loidacmode5g=1
 pa0itssit=0x62
 tssitime=1
 
-#changed form 21 to 25
-cckdigfilttype=25
+#changed form 21 to 25 9/24 Green
+#changed from 25 to 24 3/15 YS
+cckdigfilttype=24
 
 txalpfbyp2g=1
 bphyscale=17
 
+#comment out for iLNA design 9/24 Green
+#rxgaintbl100=1
+
 noise_cal_po_2g=6
+
 sd_gpout=0
 sd_oobonly=1
 btc_params80=0
 btc_params6=10
 btc_params8=10000
 
-
-#it's for the Rxhump on RC125.126
+#it's for the Rxhump on RC125.126-Green 9/24
 rxgainbackoffval=0
 
+#it's for the 2G 6M/M0 Rxhump on RC5.99.4-Green 11/14
+rxgaintblwlcsp=1
+
 noise_cal_po_5g=5
+
+#added by YS 3/6
+txiqlopapu2g=1
+txiqlopag2g=0x10
+iqlocalidx2g=64
