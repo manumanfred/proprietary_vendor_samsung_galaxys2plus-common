@@ -75,6 +75,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libHDCPKeyManager.so:system/lib/libHDCPKeyManager.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libhdmiaudio.so:system/lib/libhdmiaudio.so \
+    vendor/samsung/galaxys2plus-common/proprietary/lib/libjni_unbundled_latinimegoogle.so:system/lib/libjni_unbundled_latinimegoogle.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libmmal.so:system/lib/libmmal.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libmmal_components.so:system/lib/libmmal_components.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libmmal_util.so:system/lib/libmmal_util.so \
