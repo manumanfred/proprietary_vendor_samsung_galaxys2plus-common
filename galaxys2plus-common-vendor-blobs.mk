@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/bin/vcos-version:system/bin/vcos-version \
     vendor/samsung/galaxys2plus-common/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/camera_info.ini:system/etc/camera_info.ini \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/default_gain.conf:system/etc/default_gain.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_Filter_NB.txt:system/etc/DiamondVoice_Filter_NB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_Filter_WB.txt:system/etc/DiamondVoice_Filter_WB.txt \
     vendor/samsung/galaxys2plus-common/proprietary/etc/DiamondVoice_NB.txt:system/etc/DiamondVoice_NB.txt \
@@ -43,16 +42,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/sensors.conf:system/etc/sensors.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/srm.bin:system/etc/srm.bin \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/tinyucm.conf:system/etc/tinyucm.conf \
     vendor/samsung/galaxys2plus-common/proprietary/etc/Volume.db:system/etc/Volume.db \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_p2p.bin:system/etc/wifi/bcmdhd_p2p.bin \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/nvram_mfg.txt_murata:system/etc/wifi/nvram_mfg.txt_murata \
     vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
+    vendor/samsung/galaxys2plus-common/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/alsa.default.so:system/lib/hw/alsa.default.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/audio.hdmi.capri.so:system/lib/hw/audio.hdmi.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/hw/audio.primary.capri.so:system/lib/hw/audio.primary.capri.so \
@@ -76,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libdebug_sym.so:system/lib/libdebug_sym.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libdispmanx.so:system/lib/libdispmanx.so \
+    vendor/samsung/galaxys2plus-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libhdcp.so:system/lib/libhdcp.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libHDCPKeyManager.so:system/lib/libHDCPKeyManager.so \
@@ -115,15 +110,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/usr/lib/alsa-lib/libbcm_hp_filter.so:system/usr/lib/alsa-lib/libbcm_hp_filter.so \
     vendor/samsung/galaxys2plus-common/proprietary/usr/lib/alsa-lib/libbcm_test_filter.so:system/usr/lib/alsa-lib/libbcm_test_filter.so \
     vendor/samsung/galaxys2plus-common/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    vendor/samsung/galaxys2plus-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/egl/libGLES_vc4.so:system/vendor/lib/egl/libGLES_vc4.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/camera.capri.so:system/vendor/lib/hw/camera.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/gralloc.capri.so:system/vendor/lib/hw/gralloc.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
