@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libcontainers.so:system/lib/libcontainers.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libdebug_sym.so:system/lib/libdebug_sym.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libdispmanx.so:system/lib/libdispmanx.so \
-    vendor/samsung/galaxys2plus-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libhdcp.so:system/lib/libhdcp.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
     vendor/samsung/galaxys2plus-common/proprietary/lib/libHDCPKeyManager.so:system/lib/libHDCPKeyManager.so \
@@ -117,8 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/gralloc.capri.so:system/vendor/lib/hw/gralloc.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/hwcomposer.capri.so:system/vendor/lib/hw/hwcomposer.capri.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/hw/lights.capri.so:system/vendor/lib/hw/lights.capri.so \
+    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libdrmmtkutil.so:system/vendor/lib/libdrmmtkutil.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/galaxys2plus-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
